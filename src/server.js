@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/movies", moviesRoutes);
+app.use("/api/movies", moviesRoutes);
 
 const port = process.env.INVENTORY_PORT;
 
